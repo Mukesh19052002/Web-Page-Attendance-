@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Attendance</title>
+    <style>
+        body {
+            margin: 150px;
+        }
+        
+        p {
+            font-size: 30px;
+            text-align: center;
+            font-family: cursive;
+        }
+        
+        legend {
+            text-align: center;
+            font-size: 30px;
+            font-family: cursive;
+        }
+        
+        fieldset {
+            margin-top: 130px;
+        }
+        
+        input[type=submit] {
+            padding: 8px 10px;
+            font-family: cursive;
+        }
+        
+        input[type=text] {
+            margin-left: 10px;
+            font-family: cursive;
+            height: 25px;
+            font-size: 20px;
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Attendance Login</legend>
+        <form name="frmContact" method="post" action="attendance.php">
+            <p>
+                <label for="username">UserName</label>
+                <input type="text" name="userName" id="userName">
+            </p>
+            <p>
+                <label for="password">Password</label>
+                <input type="text" name="passWord" id="passWord">
+            </p>
+            <p>
+                <input type="submit" name="Submit" id="Submit" value="Submit">
+            </p>
+
+        </form>
+
+    </fieldset>
+
+</body>
+
+</html>
